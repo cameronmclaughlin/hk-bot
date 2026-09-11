@@ -1,0 +1,17 @@
+{
+    "1547646664293097560": {
+        "timestamp": 1789058119.176519,
+        "type": "a Senatorial Election",
+        "reactionary": false,
+        "expired": false,
+        "neededAye": 0,
+        "duration": 48,
+        "aye": 0,
+        "nay": 0,
+        "abs": 0,
+        "totalUsers": 1,
+        "userPolls": {
+            "1040690920804327485": 1
+        }
+    }
+}
