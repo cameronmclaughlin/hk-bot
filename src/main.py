@@ -106,7 +106,7 @@ async def checkExpiration():
             data["expired"] = True
 
             log = botManager.bot.get_channel(botManager.serverData["channels"]["logs"])
-            sen = botManager.bot.get_channel(botManager.electionData["channels"]["senate"])
+            sen = botManager.bot.get_channel(botManager.serverData["channels"]["senate"])
             await log.send(embed=embed)
             if data["type"] != "a test":
                 await sen.send(embed=embed)
